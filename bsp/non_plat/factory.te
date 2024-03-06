@@ -10,8 +10,6 @@ allow factory kmsg_device:chr_file w_file_perms;
 allow factory dm_device:blk_file rw_file_perms;
 allow factory sysfs_fs_ext4_features:dir search;
 allow factory sysfs_fs_ext4_features:file r_file_perms;
-allow factory system_block_device:blk_file getattr;
-allow factory vendor_block_device:blk_file getattr;
 allow factory cache_block_device:blk_file getattr;
 allow factory protect1_block_device:blk_file getattr;
 allow factory protect2_block_device:blk_file getattr;

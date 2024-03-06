@@ -39,8 +39,6 @@ allow meta_tst dm_device:blk_file rw_file_perms;
 allow meta_tst devpts:chr_file rw_file_perms;
 allow meta_tst kmsg_device:chr_file w_file_perms;
 allow meta_tst sysfs_fs_ext4_features:dir search;
-allow meta_tst sysfs_fs_ext4_features:file read;
-allow meta_tst vendor_block_device:blk_file getattr;
 allow meta_tst protect1_block_device:blk_file getattr;
 allow meta_tst protect2_block_device:blk_file getattr;
 
